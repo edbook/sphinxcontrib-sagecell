@@ -14,14 +14,16 @@ requires = ["Sphinx>=0.6", "setuptools"]
 
 
 setup(
-    name="sagecell",
-    version="1.2",
+    name="sphinxcontrib-sagecell",
+    version="2.0",
     description="Sphinx sagecell extension",
     author="Solrun Einarsdottir",
+    maintainer="Benedikt Magnusson",
+    maintainer_email="bsm@hi.is",
     packages=find_packages(),
     include_package_data=True,
     install_requires=requires,
-    namespace_packages=["sagecell"],
+    namespace_packages=["sphinxcontrib"],
 )
 
 
